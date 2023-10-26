@@ -55,8 +55,9 @@ class HCSR04:
 
 
 # variable
-sonar = HCSR04
+sonar = HCSR04()
 display.show(Image.MEH)
+
 
 while True:
     if button_a.is_pressed():
