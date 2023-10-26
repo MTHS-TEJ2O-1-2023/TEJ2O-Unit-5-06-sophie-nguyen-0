@@ -28,7 +28,7 @@ while True:
         micros = time_pulse_us(echo, 1)
         t_echo = micros / 1000000
 
-        #calculate distance to cm
+        # calculate distance to cm
         dist_cm = (t_echo / 2) * 34300
         display.scroll(str(int(dist_cm)))
 
